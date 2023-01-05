@@ -14,8 +14,16 @@
     font-weight: 700;
     border: 0;
     padding: 15px 20px;
+    margin-left: 20px;
     background: #FD6E0A;
-    border-radius: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    background-color: RoyalBlue;
+}
+.btn-primary:active {
+    background-color: rgb(8, 135, 137);
 }
 .btn-txt{
     width: 79px;
@@ -31,6 +39,8 @@
     background-image: url(/images/header_bg.png),url(/images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right,left;
+    background-size: contain;
+    padding: 0 0 135px 0 ;
     
     /* background-size: cover; */
 }
@@ -38,7 +48,8 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
+    padding: 50px 200px 50px 0px;
 }
 nav ul {
     display: flex;
@@ -49,9 +60,10 @@ nav li {
     margin-left: 50px;
 }
 .nav-title {
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 45px;
     margin: 50px 123px 0 30px;
+    
 }
 /* banner Styles */
 .banner{
@@ -60,7 +72,7 @@ nav li {
     align-items: center;
 }
 .image{
-    margin-bottom: 135px;
+    /* margin-bottom: 135px; */
     /* left: 978px;
     top: 161px; */
 }
@@ -83,3 +95,4 @@ nav li {
     font-size: 18px;
     margin-bottom: 30px;
 }
+

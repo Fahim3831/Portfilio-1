@@ -101,6 +101,7 @@ main{
 }
 /* About Section Styles */
 .about{
+    text-align: justify;
     margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
@@ -121,3 +122,11 @@ main{
     color: #757575;
     margin-bottom: 30px;
 }
+/* .table{
+    display: flex;
+    align-items: center;
+}
+th, td{
+    padding: 5px 85px;
+    margin: 0 192px 0 166px;
+} */
